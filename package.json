@@ -1,0 +1,29 @@
+{
+  "name": "cse-341",
+  "version": "0.0.1",
+  "description": "BYUI Course Work",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmsfigueredo/CSE-341.git"
+  },
+  "keywords": [
+    "Couses",
+    "BYUI"
+  ],
+  "author": "Vitor Figueredo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmsfigueredo/CSE-341/issues"
+  },
+  "homepage": "https://github.com/vmsfigueredo/CSE-341#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
