@@ -6,5 +6,5 @@ const port = 3000;
 app.use('/', require('./src/routes'))
 
 app.listen(port, () => {
-    console.log("Server Started")
+    console.log(`Server Started at port ${port}`)
 });
