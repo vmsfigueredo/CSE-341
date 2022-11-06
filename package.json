@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/vmsfigueredo/CSE-341#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.1",
     "morgan": "^1.10.0"
   }
 }
