@@ -4,7 +4,7 @@ const contactController = require('../controllers/contactController');
 /*  Contacts API */
 /**
  * @swagger
- * /contact:
+ * /contacts:
  *  post:
  *    description: Use to create a new contact
  *    parameters:
@@ -37,7 +37,7 @@ const contactController = require('../controllers/contactController');
 contactRoutes.post('/', contactController.create);
 /**
  * @swagger
- * /contact:
+ * /contacts:
  *  get:
  *    description: Use to request all contacts
  *    responses:
@@ -48,7 +48,7 @@ contactRoutes.post('/', contactController.create);
 contactRoutes.get('/', contactController.get);
 /**
  * @swagger
- * /contact/{id}:
+ * /contacts/{id}:
  *  get:
  *    description: Use to request specific contact by ID
  *    parameters:
@@ -69,7 +69,7 @@ contactRoutes.get('/', contactController.get);
 contactRoutes.get('/:id', contactController.show);
 /**
  * @swagger
- * /contact/{id}:
+ * /contacts/{id}:
  *  put:
  *    description: Use to update a contact
  *    parameters:
@@ -109,7 +109,7 @@ contactRoutes.get('/:id', contactController.show);
 contactRoutes.put('/:id', contactController.update);
 /**
  * @swagger
- * /contact/{id}:
+ * /contacts/{id}:
  *  delete:
  *    description: Use to delete contact from DB
  *    parameters:

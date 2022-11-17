@@ -5,6 +5,6 @@ const contactRoutes = require('./contactRoutes');
 routes.get('/', controller.displayName);
 
 /*  Contacts API */
-routes.use('/contact', contactRoutes);
+routes.use('/contacts', contactRoutes);
 
 module.exports = routes;
